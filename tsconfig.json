@@ -11,6 +11,8 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
+    "removeComments": true, // 移除代码中注释
+    "strictNullChecks": true, // 开启null、undefined检测
     "baseUrl": ".",
     "types": [
       "webpack-env"
